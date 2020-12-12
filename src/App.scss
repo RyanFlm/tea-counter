@@ -15,13 +15,9 @@
   .actionArea {
     position: relative;
     top: 20%;
-    left: 15rem;
+    left: 0;
     width: 100%;
-
-    @media only screen and (max-width: 800px) {
-      left: 0;
-      text-align: center;
-    }
+    text-align: center;
 
     .title, .count, .countUp {
       font-size: 2rem;
@@ -30,9 +26,7 @@
     }
 
     .title {
-      @media only screen and (max-width: 800px) {
         display: block;
-      }
     }
 
     .count {
@@ -43,10 +37,8 @@
     }
 
     .countUp {
-      padding: 0 .5rem;
-      @media only screen and (max-width: 800px) {
-        margin-left: 1rem;
-      }
+      padding: 0 1rem;
+      margin-left: 1rem;
     }
   }
 }
