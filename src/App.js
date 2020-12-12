@@ -11,7 +11,7 @@ function App() {
     return (
         <div className={'container'}>
             <div className={'actionArea'}>
-                <h1 className={'title'}>Drunken Cups of Tea:</h1>
+                <h1 className={'title'}>Tea cups drunk:</h1>
                 <button className={'count'} type={'button'} onClick={() => setCount(0)}>
                     {count}
                 </button>
